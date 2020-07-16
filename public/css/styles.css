@@ -1,0 +1,129 @@
+/* html {
+    background-color: #2b2f3d;
+    background-image: -webkit-linear-gradient(65deg, #2b2f3d 50%, #E4E9FD 50%);
+    min-height: 1000px;
+} */
+
+
+.center-intro h4{
+}
+.navbar {
+    background-color: #be3144;
+
+    padding: 10rem;
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+    border-bottom: solid 5px #2b2f3d;
+}
+
+.center-intro {
+    background-color: #2b2f3d;
+    background-image: -webkit-linear-gradient(65deg, #2b2f3d 50%, #be3144 50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    color: white;
+    font-weight: bolder;
+    border-top: solid 86px rgb(253, 253, 253);
+}
+
+.my-projects {
+    text-align: center;
+    border-top: solid 1px black;
+    
+    border-bottom: 5px solid black;
+
+    background-color: #be3144;
+}
+
+.my-projects h1 {
+    margin-top: 40px;
+    color: white;
+
+    background-color: #be3144;
+    padding-bottom: 10px;
+}
+
+.col {
+    margin: auto;
+    border-radius: 2px;
+    text-align: center;
+    font-size: 22px;
+    display: flex;
+    width: 100%;
+
+  }
+
+  .col p{
+      color: white;
+      background-color: black;
+  }
+
+.container-fluid> .row {
+    padding-top: 50px;
+    padding-bottom: 30px;  
+    background-color: #45567d;
+
+    
+}
+
+.col-sm-auto p{
+    background-color: hsl(0, 13%, 7%);
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    color: white;
+    
+    
+}
+
+.col-sm-auto{
+    margin: 10px;
+}
+
+i{
+    margin: 20px;
+}
+/* .row:after {
+    content: "";
+    display: table;
+    clear: both;
+} */
+
+
+.contact{
+        border-top: solid 5px #45567d ;
+        background-color: #2b2f3d;
+        /* background-image: -webkit-linear-gradient(65deg, #be3144 50%, #2b2f3d 50%); */
+        background-color: hsl(0, 13%, 7%);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 90vh;
+        color: white;
+        font-weight: bolder;
+        border-top: solid red;
+    
+}
+
+footer{
+    border-top: solid 1px rgb(253, 253, 253);
+
+    background-color:#45567d ;
+    font-size: 21px;
+    color: white;
+    border-top: 2px solid red;
+}
+/* @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  } */
+
